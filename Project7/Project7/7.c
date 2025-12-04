@@ -27,8 +27,25 @@ void addLastElement(int value) {
 	arr[n++] = value;
 }
 
+void addLastElement(int value) {
+	arr[n++] = value;
+}
+void addLastElement(int value) {
+	arr[n++] = value;
+}
+
 void deleteLastElement() {
 	n--;
+}
+
+void keyboardInput() {
+	printf("n = ");
+	scanf_s("%d", &n);
+
+	printf("input %d values: ", n);
+	for (int i = 0; i < n; i++) {
+		scanf_s("%d", &arr[i]);
+	}
 }
 
 void keyboardInput() {
