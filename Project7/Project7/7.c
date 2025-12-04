@@ -48,6 +48,16 @@ void keyboardInput() {
 	}
 }
 
+void keyboardInput() {
+	printf("n = ");
+	scanf_s("%d", &n);
+
+	printf("input %d values: ", n);
+	for (int i = 0; i < n; i++) {
+		scanf_s("%d", &arr[i]);
+	}
+}
+
 void oddsX10() {
 	for (int i = 0; i < n; i++) {
 		if (arr[i] % 2 == 1) {
