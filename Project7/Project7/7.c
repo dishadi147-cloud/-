@@ -27,6 +27,13 @@ void addLastElement(int value) {
 	arr[n++] = value;
 }
 
+void addLastElement(int value) {
+	arr[n++] = value;
+}
+void addLastElement(int value) {
+	arr[n++] = value;
+}
+
 void deleteLastElement() {
 	n--;
 }
