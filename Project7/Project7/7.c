@@ -12,7 +12,17 @@ void printElements() {
 	}
 	printf(">\n");
 }
+void printElements() {
+	printf("< ");
+	for (int i = 0; i < n; i++) {
+		printf("%d ", arr[i]);
+	}
+	printf(">\n");
+}
 
+void addLastElement(int value) {
+	arr[n++] = value;
+}
 void addLastElement(int value) {
 	arr[n++] = value;
 }
